@@ -1,0 +1,57 @@
+:root{
+    --fondoSidebar:  #3F4C58;
+    --fondoCuerpo: #fff;
+    --loginButton: #6A94E6;
+    --loginButtonHover: #5e81c7;
+    --purple: #B692DF;
+    --textItemColor: #747474;
+}
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: var(--fondoCuerpo);
+}
+
+
+.sidebar{
+    background-color: var(--fondoSidebar);
+    width: 300px;
+    max-width: 300px;
+    color: #fff;
+    height: 100vh;
+}
+
+    .sidebar ul{
+        margin: 0px;
+        padding: 0px;
+        text-decoration: none;
+        list-style: none;
+    }
+
+        .sidebar ul a {
+            display: inline-block;
+            width: 100%;
+            border-bottom: 2px solid var(--purple);
+            background-color: var(--fondoCuerpo);
+        }
+
+        .sidebar ul a li {
+            padding: 15px;
+            border-left: 5px solid var(--purple);
+            display: inline-block;
+            margin: 0px;
+            color:var(--textItemColor);
+        }
+
+        .sidebar ul a span{
+            float: right;
+            border-radius: 60px 0px 0px 60px;
+            background-color: var(--loginButtonHover);
+            color: #747474;
+            padding: 15px;
+            transition-duration: 500ms;
+            border-right: 1px solid #e4e4e4; 
+        }
